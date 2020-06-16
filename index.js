@@ -1,56 +1,56 @@
-// Variável que recebe no nome Edson e não muda ao longo do programa
-// const nome = 'Edson Bootcamp'
+// Variável que recebe no name Edson e não muda ao longo do programa
+// const name = 'Edson Bootcamp'
 
 // Imprimir a variável no Console
-// console.log(nome)
+// console.log(name)
 
 // Criar um programa que calcula a média
-// das notas entre os alunos e envia
+// das grades entre os students e envia
 // mensagem do cálculo da média.
 
-// const nome = "Edson" // não aceita o Template String
-// const nome2 = 'Barbosa ${nome}' // não aceita o Template String
-// const nome3 = `${nome} ${nome2} Junior` // nesse caso a variável vira uma template String o que permite uma variável dentro da crase ``
-// console.log(nome3)
+// const name = "Edson" // não aceita o Template String
+// const name2 = 'Barbosa ${name}' // não aceita o Template String
+// const name3 = `${name} ${name2} Junior` // nesse caso a variável vira uma template String o que permite uma variável dentro da crase ``
+// console.log(name3)
 
-// const aluno01 = "Edson"
-// const aluno02 = 'Enricco'
-// const aluno03 = 'João'
-// const notaAluno01 = 9.8
-// const notaAluno02 = 10
-// const notaAluno03 = 2
+// const student01 = "Edson"
+// const student02 = 'Enricco'
+// const student03 = 'João'
+// const gradestudent01 = 9.8
+// const gradestudent02 = 10
+// const gradestudent03 = 2
 
-// console.log(typeof notaAluno01) // Função typeOf mostra qual o tipo da variável
+// console.log(typeof gradestudent01) // Função typeOf mostra qual o tipo da variável
 
-// const aluno01 = 'Edson' // Variável do tipo String
-// const aluno02 = 'Enricco' // Variável do tipo String
-// const aluno03 = 'João' // Variável do tipo String
-// const notaAluno01 = 9.8 // Variável do tipo Number
-// const notaAluno02 = 10 // Variável do tipo Number
-// const notaAluno03 = 2 // Variável do tipo Number
+// const student01 = 'Edson' // Variável do tipo String
+// const student02 = 'Enricco' // Variável do tipo String
+// const student03 = 'João' // Variável do tipo String
+// const gradestudent01 = 9.8 // Variável do tipo Number
+// const gradestudent02 = 10 // Variável do tipo Number
+// const gradestudent03 = 2 // Variável do tipo Number
 
-// const media = (notaAluno01 + notaAluno02 + notaAluno03) / 3 // calculo guardado dentro da variável media
-// console.log(media) // imprimindo a variável média no console
+// const average = (gradestudent01 + gradestudent02 + gradestudent03) / 3 // calculo guardado dentro da variável average
+// console.log(average) // imprimindo a variável média no console
 
 
 // Mostra uma mensagem de acordo com o calculo da média. Utilizado a condicional if(){}else{}
 
-// const aluno01 = 'Edson' // Variável do tipo String
-// const notaAluno01 = 1.8 // Variável do tipo Number
+// const student01 = 'Edson' // Variável do tipo String
+// const gradestudent01 = 1.8 // Variável do tipo Number
 
-// const aluno02 = 'Enricco' // Variável do tipo String
-// const notaAluno02 = 10 // Variável do tipo Number
+// const student02 = 'Enricco' // Variável do tipo String
+// const gradestudent02 = 10 // Variável do tipo Number
 
-// const aluno03 = 'João' // Variável do tipo String
-// const notaAluno03 = 2 // Variável do tipo Number
+// const student03 = 'João' // Variável do tipo String
+// const gradestudent03 = 2 // Variável do tipo Number
 
-// const media = (notaAluno01 + notaAluno02 + notaAluno03) / 3
+// const average = (gradestudent01 + gradestudent02 + gradestudent03) / 3
 
 // // Se a média for maior que 5 parabenizar a turma
 
-// if (media > 5) {
+// if (average > 5) {
 //     // Faz alguma coisa
-//     console.log(`A média foi de ${media}. Parabéns`)
+//     console.log(`A média foi de ${average}. Parabéns`)
 // } else {
 //     // Faz outra coisa
 //     console.log('A média é menor que 5.')
@@ -60,112 +60,140 @@
 
 // Objetos
 
-// Os alunos abaixo são objetos com suas propriedades
+// Os students abaixo são objetos com suas propriedades
 
-// const aluno01 = {
-//     nome: "Edson",
-//     nota: 9.8
+// const student01 = {
+//     name: "Edson",
+//     grade: 9.8
 // }
 
-// const aluno02 = {
-//     nome: "Enricco",
-//     nota: 10
+// const student02 = {
+//     name: "Enricco",
+//     grade: 10
 // }
 
-// const aluno03 = {
-//     nome: "Maria",
-//     nota: 2
+// const student03 = {
+//     name: "Maria",
+//     grade: 2
 // }
 
-// const media = (aluno01.nota + aluno02.nota + aluno03.nota) / 3
+// const average = (student01.grade + student02.grade + student03.grade) / 3
 
 // Console é um objeto com seus métodos
-// console.log(media)
+// console.log(average)
 
 // Coleção de Objetos
 // Array - Vetores
-// const alunos = [{
-//         nome: "Edson",
-//         nota: 9.8
+// const students = [{
+//         name: "Edson",
+//         grade: 9.8
 //     },
 //     {
-//         nome: "Enricco",
-//         nota: 10
+//         name: "Enricco",
+//         grade: 10
 //     },
 //     {
-//         nome: "Maria",
-//         nota: 2
+//         name: "Maria",
+//         grade: 2
 //     }
 // ]
 
-// const nomeDeAlunos = ["Edson", "Enricco", "Maria"]
+// const nameDestudents = ["Edson", "Enricco", "Maria"]
 
-// console.log(nomeDeAlunos)
+// console.log(nameDestudents)
 
-// const media = (alunos[0].nota + alunos[1].nota + alunos[2].nota) / 3
+// const average = (students[0].grade + students[1].grade + students[2].grade) / 3
 
-// console.log(media)
-
+// console.log(average)
 
 // Criar um programa que calcula a média
-// das turmas de alunos e envia 
+// das turmas de students e envia 
 // mensagem de cálculo da média
 
-// const alunosDaTurmaA = [{
-//         nome: "Edson",
-//         nota: 9.8
-//     },
-//     {
-//         nome: "Enricco",
-//         nota: 10
-//     },
-//     {
-//         nome: "Maria",
-//         nota: 3
-//     },
-//     {
-//         nome: "Amanda",
-//         nota: 10
-//     }
-// ]
+// Marcar student como flunked se a grade
+// for menor que 5
+// e também enviar uma mensagem
 
-// const alunosDaTurmaB = [{
-//         nome: "Priscila",
-//         nota: 4
-//     },
-//     {
-//         nome: "Raquel",
-//         nota: 8.9
-//     },
-//     {
-//         nome: "Pedro",
-//         nota: 5
-//     },
-//     {
-//         nome: "João",
-//         nota: 8
-//     }
-// ]
+const classA = [{
+        name: "Edson",
+        grade: 1.8,
+    },
+    {
+        name: "Enricco",
+        grade: 10
+    },
+    {
+        name: "Maria",
+        grade: 3
+    },
+    {
+        name: "Amanda",
+        grade: 10
+    }
+]
 
-// function calculaMedia(alunos) {
-//     let soma = 0
-//     for (let i = 0; i < alunos.length; i++) {
-//         soma = soma + alunos[i].nota;
-//     }
-//     const media = soma / alunos.length
-//     return media
-// }
+const classB = [{
+        name: "Priscila",
+        grade: 4
+    },
+    {
+        name: "Raquel",
+        grade: 8.9
+    },
+    {
+        name: "Pedro",
+        grade: 5
+    },
+    {
+        name: "João",
+        grade: 8
+    }
+]
 
-// const media1 = calculaMedia(alunosDaTurmaA)
-// const media2 = calculaMedia(alunosDaTurmaB)
+function calculateAverage(students) {
+    let sum = 0
 
-// function enviaMensagem(media, turma) {
-//     if (media > 5) {
-//         console.log(`A media da ${turma} foi de ${media}. Parabéns!`)
-//     } else {
-//         console.log(`A média da ${turma} foi menor que 5.`)
-//     }
-// }
+    for (let i = 0; i < students.length; i++) {
+        sum = sum + students[i].grade;
+    }
+    const average = sum / students.length
+    return average
+}
 
-// enviaMensagem(media1, 'Turma A')
-// enviaMensagem(media2, 'Turma B')
+function sendMessage(average, turma) {
+    if (average > 5) {
+        console.log(`${turma} average ${average}. Congrats!`)
+    } else {
+        console.log(`${turma} average ${average}. It's not enough!`)
+    }
+}
+
+function markedAsFlunked(student) {
+    student.flunked = false
+
+    if (student.grade < 5) {
+        student.flunked = true
+    }
+}
+
+function sendFlunkedMessage(student) {
+    if (student.flunked) {
+        console.log(`The student ${student.name} was flunked!`)
+    }
+}
+
+function studentsFlunkeds(students) {
+    for (let student of students) {
+        markedAsFlunked(student)
+        sendFlunkedMessage(student)
+    }
+}
+
+const average1 = calculateAverage(classA)
+const average2 = calculateAverage(classB)
+
+sendMessage(average1, 'Class A')
+sendMessage(average2, 'Class B')
+
+studentsFlunkeds(classA)
+studentsFlunkeds(classB)
